@@ -12,39 +12,28 @@ const MockFollowersList=()=>{
 }
 describe("FollowersList", ()=>{
 
-  beforeEach(() =>{
-    console.log("Running before each test")
-  })
+//   beforeEach(() =>{
+//     console.log("Running before each test")
+//   })
 
-  beforeAll(() =>{
-    console.log("Running Once before each test")
-  })
+//   beforeAll(() =>{
+//     console.log("Running Once before each test")
+//   })
 
-  afterEach(() =>{
-    console.log("Running after each test")
-  })
+//   afterEach(() =>{
+//     console.log("Running after each test")
+//   })
   
-  afterAll(() =>{
-    console.log("Running Once after All test")
-  })
-test('Should render follower items', async () => {
-  render(<MockFollowersList />);
-  const followerdivElement = await screen.findByTestId("follower-item-0");
-  screen.debug()
-  expect(followerdivElement).toBeInTheDocument();
-});
+//   afterAll(() =>{
+//     console.log("Running Once after All test")
+//   })
+
+
 
 test('Should render follower items', async () => {
   render(<MockFollowersList />);
   const followerdivElement = await screen.findByTestId("follower-item-0");
-  screen.debug()
-  expect(followerdivElement).toBeInTheDocument();
-});
-
-test('Should render follower items', async () => {
-  render(<MockFollowersList />);
-  const followerdivElement = await screen.findByTestId("follower-item-0");
-  screen.debug()
+  // screen.debug()
   expect(followerdivElement).toBeInTheDocument();
 });
 // test('Should render multiple follower items', async () => {

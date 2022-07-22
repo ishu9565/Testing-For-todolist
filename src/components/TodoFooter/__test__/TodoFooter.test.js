@@ -36,62 +36,62 @@ describe("TodoFooter", ()=>{
 }
 )
 
-//   test('Should render "task" when the number of incomplete tasks is one', () => {
-//     render(
-//       <MockTodoFooter
-//       numberOfIncompleteTasks={1}
-//       />
-//     );
-//     const ParagraphElement = screen.getByText(/1 task left/i);
-//     expect(ParagraphElement).toBeVisible()
-//   });
+  test('Should render "task" when the number of incomplete tasks is one', () => {
+    render(
+      <MockTodoFooter
+      numberOfIncompleteTasks={1}
+      />
+    );
+    const ParagraphElement = screen.getByText(/1 task left/i);
+    expect(ParagraphElement).toBeVisible()
+  });
 
-//   test('Should render "task" when the number of incomplete tasks is one', () => {
-//     render(
-//       <MockTodoFooter
-//       numberOfIncompleteTasks={1}
-//       />
-//     );
-//     const ParagraphElement = screen.getByText(/1 task left/i);
-//     expect(ParagraphElement).toBeTruthy()
-//   });
+  test('Should render "task" when the number of incomplete tasks is one', () => {
+    render(
+      <MockTodoFooter
+      numberOfIncompleteTasks={1}
+      />
+    );
+    const ParagraphElement = screen.getByText(/1 task left/i);
+    expect(ParagraphElement).toBeTruthy()
+  });
 
-//   test('Should render "task" when the number of incomplete tasks is one', () => {
-//     render(
-//       <MockTodoFooter
-//       numberOfIncompleteTasks={1}
-//       />
-//     );
-//     const ParagraphElement = screen.getByText(/1 task left/i);
-//     expect(ParagraphElement).toContainHTML("p")
-//   });
+  test('Should render "task" when the number of incomplete tasks is one', () => {
+    render(
+      <MockTodoFooter
+      numberOfIncompleteTasks={1}
+      />
+    );
+    const ParagraphElement = screen.getByText(/1 task left/i);
+    expect(ParagraphElement).toContainHTML("p")
+  });
 
-//   test('Should render "task" when the number of incomplete tasks is one', () => {
-//     render(
-//       <MockTodoFooter
-//       numberOfIncompleteTasks={1}
-//       />
-//     );
-//     const ParagraphElement = screen.getByTestId("para");
-//     expect(ParagraphElement).toHaveTextContent("1 task left")
-//   });
+  test('Should render "task" when the number of incomplete tasks is one', () => {
+    render(
+      <MockTodoFooter
+      numberOfIncompleteTasks={1}
+      />
+    );
+    const ParagraphElement = screen.getByTestId("para");
+    expect(ParagraphElement).toHaveTextContent("1 task left")
+  });
 
-//   test('Should render "task" when the number of incomplete tasks is one', () => {
-//     render(
-//       <MockTodoFooter
-//       numberOfIncompleteTasks={1}
-//       />
-//     );
-//     const ParagraphElement = screen.getByTestId("para");
-//     expect(ParagraphElement).not.toBeFalsy
-//   });
+  test('Should render "task" when the number of incomplete tasks is one', () => {
+    render(
+      <MockTodoFooter
+      numberOfIncompleteTasks={1}
+      />
+    );
+    const ParagraphElement = screen.getByTestId("para");
+    expect(ParagraphElement).not.toBeFalsy
+  });
 
-//   test('Should render "task" when the number of incomplete tasks is one', () => {
-//     render(
-//       <MockTodoFooter
-//       numberOfIncompleteTasks={1}
-//       />
-//     );
-//     const ParagraphElement = screen.getByTestId("para");
-//     expect(ParagraphElement.textContent  ).toBe("1 task left")
-//   });
+  test('Should render "task" when the number of incomplete tasks is one', () => {
+    render(
+      <MockTodoFooter
+      numberOfIncompleteTasks={1}
+      />
+    );
+    const ParagraphElement = screen.getByTestId("para");
+    expect(ParagraphElement.textContent  ).toBe("1 task left")
+  });
